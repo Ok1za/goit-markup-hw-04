@@ -450,7 +450,7 @@ address {
 
 .card-one {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(0%);
+    
 }
 
 .card-one:hover {
@@ -460,6 +460,10 @@ address {
 .portfolio-cards {
     position: relative;
     overflow: hidden;
+}
+
+.portfolio-card-one-p:hover {
+    transform: translateY(0%);
 }
 
 .portfolio-card-one-p{
