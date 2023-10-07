@@ -467,7 +467,7 @@ address {
     overflow: hidden;
 }
 
-.portfolio-card-one-p:hover {
+.portfolio-cards:hover {
     transform: translateY(0%);
 }
 
