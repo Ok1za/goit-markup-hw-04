@@ -362,6 +362,13 @@ address {
     
 }
 
+.members-soc-icon-item {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
 .members-icon-div {
     display: flex;
     justify-content: center;
