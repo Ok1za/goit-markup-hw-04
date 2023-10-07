@@ -363,9 +363,7 @@ address {
 }
 
 .members-soc-icon-item {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+    
 
 }
 
@@ -455,6 +453,13 @@ address {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+    
+}
+
+.container-footer {
+    display: flex;
+    align-items: baseline;
+    
 }
 
 .logo {
@@ -467,14 +472,39 @@ address {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
+    
 }
 
 .logo-text {
     color: #F4F4FD;
+    
 }
 
 .footer-item {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-right: 120px
+}
+
+.footer-soc {
+    
+}
+
+.footer-soc-item {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 16px;
+}
+
+.ft-soc-inst {
+    
 }
