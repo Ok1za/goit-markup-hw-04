@@ -378,6 +378,10 @@ address {
 
 .members-soc-icon {
     fill: #f4f4fd;
+    
+}
+
+.members-a {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -385,10 +389,6 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.members-a {
-    
 }
 
 .members-a:hover,
