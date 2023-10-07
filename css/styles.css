@@ -285,6 +285,10 @@ address {
 
 .members-div {
     padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 
 .members-container {
@@ -349,13 +353,6 @@ address {
 
 }
 
-.members-icon-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-}
-
 /* Section four */
 
 .portfolio {
@@ -395,7 +392,6 @@ address {
 
 .portfolio-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
 }
 
 .portfolio-item {
@@ -406,6 +402,9 @@ address {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.card-one:hover {
+    transform: translateY(0%);
+}
 
 .portfolio-cards {
     position: relative;
