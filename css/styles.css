@@ -530,8 +530,7 @@ address {
 }
 
 .container-footer {
-    
-
+    margin-right: 120px;
 }
 
 .logo {
@@ -554,7 +553,6 @@ address {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-right: 120px
 }
 
 .footer-soc {
