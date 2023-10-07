@@ -124,6 +124,8 @@ address {
     height: 4px;
     background-color: #404BBF;
     border-radius: 2px;
+    display: block;
+    width: 48px;
 }
 
 .header-list-item {
